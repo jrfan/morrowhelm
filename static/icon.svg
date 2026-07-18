@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">MorrowHelm</title>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A88BFF"/>
+      <stop offset="0.56" stop-color="#6F56C7"/>
+      <stop offset="1" stop-color="#FFAD6C"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#11111A"/>
+  <circle cx="256" cy="256" r="150" fill="url(#bg)" opacity="0.2"/>
+  <circle cx="256" cy="256" r="124" fill="none" stroke="url(#bg)" stroke-width="12"/>
+  <path d="m164 286 60-60 41 41 83-83" fill="none" stroke="#F7F4FF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="349" cy="183" r="17" fill="#FFAD6C"/>
+</svg>

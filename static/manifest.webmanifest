@@ -1,0 +1,14 @@
+{
+  "name": "MorrowHelm",
+  "short_name": "MorrowHelm",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11111a",
+  "theme_color": "#11111a",
+  "description": "A local-first mobile command deck for one-person companies.",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {"src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

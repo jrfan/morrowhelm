@@ -1,0 +1,52 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.local.*
+*.key
+*.pem
+
+# Dependencies and virtual environments
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Build, test, and tool output
+build/
+dist/
+coverage/
+.coverage
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.next/
+.nuxt/
+.turbo/
+*.egg-info/
+
+# Runtime data
+.data/
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+*.bin
+tmp/
+
+# Private project workspace and generated media
+AGENTS.md
+video/
+static/morrowhelm-thumbnail.png
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
