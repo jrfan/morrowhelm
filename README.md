@@ -1,12 +1,12 @@
 # MorrowHelm
 
-> Steer the company you're becoming.
+> Agent-native operations. Human-native management.
 
 MorrowHelm is an open-source, local-first command deck for running a capable
-one-person company with AI employees. It turns agent work into a mobile control
-loop where the founder can delegate, inspect, approve, and stay accountable.
+one-person company with AI employees. It gives agents the infrastructure they
+need while giving founders a company experience they already understand.
 
-> **Six Codex agents move the company forward. You keep the final say.**
+> **Your AI team does the work. You keep the final say.**
 
 ## Why MorrowHelm?
 
@@ -14,11 +14,34 @@ The name joins **morrow**—the coming day or future—with **helm**, the place 
 which a vessel is steered. It represents one founder directing an intelligent
 company toward what comes next.
 
+## Product thesis
+
+Most agent software is organized around model runs, prompts, workflow graphs,
+and provider-specific controls. Those concepts are useful to the runtime, but
+they should not become a new management job for the founder.
+
+MorrowHelm deliberately separates two layers:
+
+- **Agent-native operations underneath.** Specialized agents can work in
+  parallel, use isolated workspaces, produce inspectable artifacts, request
+  scoped permissions, and return auditable execution receipts.
+- **Human-native management on the surface.** The founder works with a familiar
+  company model: people, conversations, tasks, deliverables, decisions, and a
+  clear record of what happened.
+
+The founder communicates goals, checks progress, reviews work, and approves
+consequential actions. Models, adapters, retries, prompts, and workspace
+isolation stay in the infrastructure layer until they are useful for trust or
+diagnosis.
+
+The goal is not to teach every manager how to operate an agent framework. The
+goal is to make an AI-powered company feel approachable from the first day.
+
 ## What it does
 
 The mobile-first PWA gives a founder one place for:
 
-- talking with synthetic virtual employees;
+- talking with named AI teammates;
 - turning conversations into inspectable tasks;
 - reviewing approvals with side effects, scopes, risk, spend, and reversibility;
 - approving or rejecting with optimistic version checks;
